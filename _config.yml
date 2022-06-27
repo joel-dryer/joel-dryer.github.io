@@ -22,8 +22,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   of scripture and ancient Jewish wisdom.
 #twitter_username: username
 #github_username: username
-minimal_mistakes_skin: air
+minimal_mistakes_skin: "air"
 search: true
+
+# Search settings
+lunr:
+  search_within_pages: true
 
 # Build settings
 markdown: kramdown
